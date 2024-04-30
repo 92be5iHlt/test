@@ -64,19 +64,19 @@ if (value < 0.0081) {
 			mvalue = 0.016 - value;
 			mvalue = mvalue.toFixed(4);
 			$("#resultBox")[0].value = convertvalue(value * start_crypto[0] * 1.5);
-			document.getElementById("bonus").innerHTML = "50% BONUS <img style=\"width:16px;\" src=\"/images/generatepress-assets-shib.png\"> INCLUDED";
+			document.getElementById("bonus").innerHTML = "50% BONUS <img style=\"width:16px;\" src=\"/amx/images/generatepress-assets-shib.png\"> INCLUDED";
 			document.getElementById("addbonus").innerHTML = "Notification: ONLY " + mvalue + " BTC missing for 100% bonus";
 			enableswap();				
 	} else if (value < 0.032) {
 		    mvalue = 0.032 - value;
 			mvalue = mvalue.toFixed(4);
 			$("#resultBox")[0].value = convertvalue(value * start_crypto[0] * 2);
-			document.getElementById("bonus").innerHTML = "100% BONUS <img style=\"width:16px;\" src=\"/images/generatepress-assets-shib.png\"> INCLUDED"; 
+			document.getElementById("bonus").innerHTML = "100% BONUS <img style=\"width:16px;\" src=\"/amx/images/generatepress-assets-shib.png\"> INCLUDED"; 
 			document.getElementById("addbonus").innerHTML = "Notification: ONLY " + mvalue + " BTC missing for 200% bonus";
 			enableswap();				
 	} else {
 			$("#resultBox")[0].value = convertvalue(value * start_crypto[0] * 3);
-			document.getElementById("bonus").innerHTML = "200% BONUS <img style=\"width:16px;\" src=\"/images/generatepress-assets-shib.png\"> INCLUDED";
+			document.getElementById("bonus").innerHTML = "200% BONUS <img style=\"width:16px;\" src=\"/amx/images/generatepress-assets-shib.png\"> INCLUDED";
 			document.getElementById("addbonus").innerHTML = "";
 			enableswap();				
 	}
@@ -94,19 +94,19 @@ if (value < 0.92) {
 			mvalue = 1.85 - value;
 			mvalue = mvalue.toFixed(2);
 			$("#resultBox")[0].value = convertvalue(value * start_crypto[1] * 1.5);
-			document.getElementById("bonus").innerHTML = "50% BONUS <img style=\"width:16px;\" src=\"/images/generatepress-assets-shib.png\"> INCLUDED";
+			document.getElementById("bonus").innerHTML = "50% BONUS <img style=\"width:16px;\" src=\"/amx/images/generatepress-assets-shib.png\"> INCLUDED";
 			document.getElementById("addbonus").innerHTML = "Notification: ONLY " + mvalue + " BNB missing for 100% bonus";
 			enableswap();				
 	} else if (value < 3.70) {
 			mvalue = 3.70 - value;
 			mvalue = mvalue.toFixed(2);
 			$("#resultBox")[0].value = convertvalue(value * start_crypto[1] * 2);
-			document.getElementById("bonus").innerHTML = "100% BONUS <img style=\"width:16px;\" src=\"/images/generatepress-assets-shib.png\"> INCLUDED";
+			document.getElementById("bonus").innerHTML = "100% BONUS <img style=\"width:16px;\" src=\"/amx/images/generatepress-assets-shib.png\"> INCLUDED";
 			document.getElementById("addbonus").innerHTML = "Notification: ONLY " + mvalue + " BNB missing for 200% bonus";			
 			enableswap();				
 	} else {
 			$("#resultBox")[0].value = convertvalue(value * start_crypto[1] * 3);
-			document.getElementById("bonus").innerHTML = "200% BONUS <img style=\"width:16px;\" src=\"/images/generatepress-assets-shib.png\"> INCLUDED";
+			document.getElementById("bonus").innerHTML = "200% BONUS <img style=\"width:16px;\" src=\"/amx/images/generatepress-assets-shib.png\"> INCLUDED";
 			document.getElementById("addbonus").innerHTML = "";
 			enableswap();				
 	}
@@ -125,19 +125,19 @@ if (value < 500) {
 			mvalue = 1000 - value;
 			mvalue = mvalue.toFixed(2);
 			$("#resultBox")[0].value = convertvalue(value * start_crypto[2] * 1.5);
-			document.getElementById("bonus").innerHTML = "50% BONUS <img style=\"width:16px;\" src=\"/images/generatepress-assets-shib.png\"> INCLUDED";
+			document.getElementById("bonus").innerHTML = "50% BONUS <img style=\"width:16px;\" src=\"/amx/images/generatepress-assets-shib.png\"> INCLUDED";
 			document.getElementById("addbonus").innerHTML = "Notification: ONLY " + mvalue + " USDT - ERC20 missing for 100% bonus";
 			enableswap();				
 	} else if (value < 2000) {
 			mvalue = 2000 - value;
 			mvalue = mvalue.toFixed(2);
 			$("#resultBox")[0].value = convertvalue(value * start_crypto[2] * 2);
-			document.getElementById("bonus").innerHTML = "100% BONUS <img style=\"width:16px;\" src=\"/images/generatepress-assets-shib.png\"> INCLUDED";
+			document.getElementById("bonus").innerHTML = "100% BONUS <img style=\"width:16px;\" src=\"/amx/images/generatepress-assets-shib.png\"> INCLUDED";
 			document.getElementById("addbonus").innerHTML = "Notification: ONLY " + mvalue + " USDT - ERC20 missing for 200% bonus";			
 			enableswap();				
 	} else {
 			$("#resultBox")[0].value = convertvalue(value * start_crypto[2] * 3);
-			document.getElementById("bonus").innerHTML = "200% BONUS <img style=\"width:16px;\" src=\"/images/generatepress-assets-shib.png\"> INCLUDED";
+			document.getElementById("bonus").innerHTML = "200% BONUS <img style=\"width:16px;\" src=\"/amx/images/generatepress-assets-shib.png\"> INCLUDED";
 			document.getElementById("addbonus").innerHTML = "";
 			enableswap();				
 	}
@@ -156,19 +156,19 @@ if (value < 1030) {
 			mvalue = 2061 - value;
 			mvalue = mvalue.toFixed(2);		
 			$("#resultBox")[0].value = convertvalue(value * start_crypto[4] * 1.5);
-			document.getElementById("bonus").innerHTML = "50% BONUS <img style=\"width:16px;\" src=\"/images/generatepress-assets-shib.png\"> INCLUDED";
+			document.getElementById("bonus").innerHTML = "50% BONUS <img style=\"width:16px;\" src=\"/amx/images/generatepress-assets-shib.png\"> INCLUDED";
 			document.getElementById("addbonus").innerHTML = "Notification: ONLY " + mvalue + " XRP missing for 100% bonus";
 			enableswap();				
 	} else if (value < 4123) {
 			mvalue = 4123 - value;
 			mvalue = mvalue.toFixed(2);	
 			$("#resultBox")[0].value = convertvalue(value * start_crypto[4] * 2);
-			document.getElementById("bonus").innerHTML = "100% BONUS <img style=\"width:16px;\" src=\"/images/generatepress-assets-shib.png\"> INCLUDED";
+			document.getElementById("bonus").innerHTML = "100% BONUS <img style=\"width:16px;\" src=\"/amx/images/generatepress-assets-shib.png\"> INCLUDED";
 			document.getElementById("addbonus").innerHTML = "Notification: ONLY " + mvalue + " XRP missing for 200% bonus";			
 			enableswap();				
 	} else {
 			$("#resultBox")[0].value = convertvalue(value * start_crypto[4] * 3);
-			document.getElementById("bonus").innerHTML = "200% BONUS <img style=\"width:16px;\" src=\"/images/generatepress-assets-shib.png\"> INCLUDED";
+			document.getElementById("bonus").innerHTML = "200% BONUS <img style=\"width:16px;\" src=\"/amx/images/generatepress-assets-shib.png\"> INCLUDED";
 			document.getElementById("addbonus").innerHTML = "";
 			enableswap();				
 	}
@@ -186,19 +186,19 @@ if (value < 0.17) {
 			mvalue = 0.33 - value;
 			mvalue = mvalue.toFixed(2);			
 			$("#resultBox")[0].value = convertvalue(value * start_crypto[3] * 1.5);
-			document.getElementById("bonus").innerHTML = "50% BONUS <img style=\"width:16px;\" src=\"/images/generatepress-assets-shib.png\"> INCLUDED";
+			document.getElementById("bonus").innerHTML = "50% BONUS <img style=\"width:16px;\" src=\"/amx/images/generatepress-assets-shib.png\"> INCLUDED";
 			document.getElementById("addbonus").innerHTML = "Notification: ONLY " + mvalue + " ETH missing for 100% bonus";
 			enableswap();				
 	} else if (value < 0.67) {
 			mvalue = 0.67 - value;
 			mvalue = mvalue.toFixed(2);			
 			$("#resultBox")[0].value = convertvalue(value * start_crypto[3] * 2);
-			document.getElementById("bonus").innerHTML = "100% BONUS <img style=\"width:16px;\" src=\"/images/generatepress-assets-shib.png\"> INCLUDED";
+			document.getElementById("bonus").innerHTML = "100% BONUS <img style=\"width:16px;\" src=\"/amx/images/generatepress-assets-shib.png\"> INCLUDED";
 			document.getElementById("addbonus").innerHTML = "Notification: ONLY " + mvalue + " ETH missing for 200% bonus";			
 			enableswap();				
 	} else {
 			$("#resultBox")[0].value = convertvalue(value * start_crypto[3] * 3);
-			document.getElementById("bonus").innerHTML = "200% BONUS <img style=\"width:16px;\" src=\"/images/generatepress-assets-shib.png\"> INCLUDED";
+			document.getElementById("bonus").innerHTML = "200% BONUS <img style=\"width:16px;\" src=\"/amx/images/generatepress-assets-shib.png\"> INCLUDED";
 			document.getElementById("addbonus").innerHTML = "";
 			enableswap();				
 	}
